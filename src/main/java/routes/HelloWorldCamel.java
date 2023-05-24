@@ -16,7 +16,7 @@ public class HelloWorldCamel extends RouteBuilder{
     public void configure() throws Exception {
 
         restConfiguration()
-        .port(8080)
+        .port(8081)
         .bindingMode(RestBindingMode.auto);
 
         rest("/boomi/utilities/v1")
